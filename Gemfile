@@ -26,6 +26,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+# Use Devise for secure logins
+gem 'devise'
+# Add Devise-token-auth to use token-based authentication
+gem 'devise_token_auth'
+# Add Omniauth dependency for devise_token_auth
+gem 'omniauth'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
