@@ -1,4 +1,16 @@
-# README
+# LEGACY CHRONICLER
+
+An app for recording and remembering the details of your [Legacy](https://en.wikipedia.org/wiki/Legacy_game) board games.
+Created with Rails and React-JS as a final project for the Flatiron Learn Computer Science Course
+
+## Versions and Dependencies
+
+## Use Description
+
+This is currently being served by Heroku at (https://legacy-chronicler.herokuapp.com/)
+
+## Project Requirements
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
