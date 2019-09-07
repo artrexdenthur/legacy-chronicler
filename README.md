@@ -7,7 +7,8 @@ Created with Rails and React-JS as a final project for the Flatiron Learn Comput
 
 ## Use Description
 
-This is currently being served by Heroku at (https://legacy-chronicler.herokuapp.com/)
+This is currently being served by Heroku at https://legacy-chronicler.herokuapp.com/
+You can create an account there and create records of your playthroughs of available Legacy games, and view playthroughs other players have posted
 
 ## Project Requirements
 
