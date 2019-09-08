@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
-  mount_devise_token_auth_for 'User', at: 'auth'
+  # Token Login
+  namespace :api do
+    scope :v1 do
+      mount_devise_token_auth_for 'User', at: 'auth'
+    end
+  end
+
+  # Basic Devise Login
+  devise_for :users
+  
   get 'welcome/home'
   get '/app', to: 'welcome#app', as: 'app'
 
