@@ -1,5 +1,6 @@
 import  React, { Component } from 'react'
 import { connect } from 'react-redux'
+import Button from 'react-bootstrap/Button'
 
 class APITest extends Component {
 
@@ -15,7 +16,7 @@ class APITest extends Component {
   render() {
     return(
       <div>
-        <button onClick={this.handleOnClick}>Fetch tha!</button>
+        <Button variant="primary" onClick={this.handleOnClick}>Fetch tha!</Button>
         <p>{this.state.results}</p>
       </div>
     )
