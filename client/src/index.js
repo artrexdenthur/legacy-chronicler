@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 import "./index.css";
-import { rootReducer } from "./rootReducer";
+import { rootReducer } from "./reducers/rootReducer";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import App from "./App";
 import { About } from "./components/About";
@@ -35,6 +35,7 @@ ReactDOM.render(
     />
     <Router>
       <TopNav />
+      <div>May as well try</div>
       <Route exact path="/" render={App} />
       <Route exact path="/about" render={About} />
     </Router>
