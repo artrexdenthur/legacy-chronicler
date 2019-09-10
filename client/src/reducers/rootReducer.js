@@ -1,4 +1,7 @@
 import { combineReducers } from 'redux';
+import userReducer from './usersReducer'
+import gamesReducer from './gamesReducer'
+import sessionReducer from './sessionReducer'
 export const rootReducer = combineReducers({
   api: apiReducer
 })
