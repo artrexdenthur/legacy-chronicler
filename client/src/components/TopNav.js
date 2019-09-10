@@ -7,12 +7,12 @@ export const TopNav = () => (
   <Navbar>
     <Nav className="default-nav">
       <Nav.Link>
-        <Link to="/" exact>
+        <Link to="/app" exact>
           Home
         </Link>
       </Nav.Link>
       <Nav.Link>
-        <Link to="/about" exact>
+        <Link to="/app/about" exact>
           About
         </Link>
       </Nav.Link>

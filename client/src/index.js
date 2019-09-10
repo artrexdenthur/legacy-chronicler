@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
-import "./index.css";
+// import "./index.css";
 import { rootReducer } from "./reducers/rootReducer";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import App from "./App";
@@ -35,9 +35,8 @@ ReactDOM.render(
     />
     <Router>
       <TopNav />
-      <div>May as well try</div>
-      <Route exact path="/" render={App} />
-      <Route exact path="/about" render={About} />
+      <Route exact path="/app" render={App} />
+      <Route exact path="/app/about" render={About} />
     </Router>
   </Provider>,
   document.getElementById("root")

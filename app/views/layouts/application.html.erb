@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>LegacyChronicler</title>
-  <%= csrf_meta_tags %>
-  <%= csp_meta_tag %>
-
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  <%= favicon_link_tag asset_path('favicon.ico', rel: 'icon', type: "image/x-icon") %>
-</head>
-
-<body>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
-  <%= yield %>
-</body>
-
+  <head>
+    <title>LegacyChronicler</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= favicon_link_tag asset_path('favicon.ico', rel: 'icon', type: "image/x-icon") %>
+  </head>
+  <body>
+    <div class="container">
+      <% if flash %>
+        <% if flash[:notice] %>
+          <p class="notice"><%= notice %></p>
+        <% end %>
+        <% if flash[:alert] %>
+          <p class="alert"><%= alert %></p>
+        <% end %>
+      <% end %>
+      <%= yield %>
+    </div>
+  </body>
 </html>
