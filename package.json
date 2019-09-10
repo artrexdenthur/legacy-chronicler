@@ -11,7 +11,7 @@
     "webpack": "4.39.1"
   },
   "scripts": {
-    "start": "bin/webpack-dev-server"
+    "start": "react-scripts start"
   },
   "devDependencies": {
     "babel-loader": "^8.0.6",

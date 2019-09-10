@@ -27,8 +27,8 @@ const mapStateToProps = function() {
 
 }
 
-const mapDispatchToProps = function() {
-  
+const mapDispatchToProps = dispatch => {
+  return {}
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(APITest)
