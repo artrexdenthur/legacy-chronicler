@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1>Welcome to Legacy Chronicler</h1>
-      <p>Please hold while we attempt to get an API working...</p>
+      <p>Please hold while we attempt to get an API working for ya...</p>
       <p>API URL == {process.env.API_URL}</p>
       <APITest />
     </div>

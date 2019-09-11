@@ -1,5 +1,6 @@
 {
   "name": "legacy-chronicler",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
@@ -17,5 +18,10 @@
     "file-loader": "^4.2.0",
     "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "build": "yarn --cwd client install && yarn --cwd client build",
+    "deploy": "cp -a client/build/. public/",
+    "heroku-postbuild": "yarn build && yarn deploy"
   }
 }
