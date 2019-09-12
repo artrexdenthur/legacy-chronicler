@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Devise for secure logins
 gem 'devise'
 # Add Devise-token-auth to use token-based authentication
-gem 'devise_token_auth'
+gem 'devise_token_auth', '~>1.0.0'
 # Add Omniauth dependency for devise_token_auth
 gem 'omniauth'
 
@@ -47,7 +47,7 @@ gem 'omniauth'
 # gem 'capistrano-rails', group: :development
 
 # Use Webpacker to help integrate React/Redux
-gem 'webpacker'
+gem 'webpacker', '<4.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
