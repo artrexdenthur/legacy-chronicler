@@ -24,7 +24,7 @@ class APITest extends Component {
 }
 
 const mapStateToProps = function() {
-
+  return {}
 }
 
 const mapDispatchToProps = dispatch => {

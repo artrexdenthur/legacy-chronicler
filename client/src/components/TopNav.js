@@ -6,15 +6,11 @@ import Navbar from "react-bootstrap/Navbar";
 export const TopNav = () => (
   <Navbar>
     <Nav className="default-nav">
-      <Nav.Link>
-        <Link to="/app" exact>
+      <Nav.Link to="/app">
           Home
-        </Link>
       </Nav.Link>
-      <Nav.Link>
-        <Link to="/app/about" exact>
+      <Nav.Link to="/app/about">
           About
-        </Link>
       </Nav.Link>
     </Nav>
   </Navbar>
