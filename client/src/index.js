@@ -34,6 +34,7 @@ ReactDOM.render(
       <Route path="/" exact component={App} />
       <Route path="/sign_in" component={SignInPage} />
       <Route path="/sign_up" component={RegisterPage} />
+      <Route path="/checklist" component={ChecklistSplash} />
     </Router>
     <link
       rel="stylesheet"
