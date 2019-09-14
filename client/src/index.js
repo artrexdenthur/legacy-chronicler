@@ -3,9 +3,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import Nav from "./components/Nav";
+import Checklist from "./components/checklist/Checklist";
+import Container from "react-bootstrap/Container";
 
 // React Redux, Thunk, and related concerns
-// import { Provider } from "react-redux";
+import { Provider } from "react-redux";
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 import rootReducer from "./reducers";
@@ -13,8 +15,8 @@ import initial_state from "./redux/initial_state";
 
 // Redux Token Authorization, to talk to Devise_token_auth
 import { verifyCredentials } from "./redux-token-auth-config";
-import RegisterPage from './components/auth/RegisterPage'
-import SignInPage from './components/auth/SignInPage'
+import RegisterPage from "./components/auth/RegisterPage";
+import SignInPage from "./components/auth/SignInPage";
 
 // React Router
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -28,14 +30,15 @@ const store = createStore(
 );
 verifyCredentials(store); // Is the user already logged in?
 ReactDOM.render(
-  // <Provider store={store}>
-  <div>
+  <Provider store={store}>
     <Router>
       <Nav />
-      <Route path="/" exact component={App} />
-      <Route path="/sign_in" component={SignInPage} />
-      <Route path="/sign_up" component={RegisterPage} />
-      <Route path="/checklist" component={ChecklistSplash} />
+      <Container>
+        <Route path="/" exact component={App} />
+        <Route path="/sign_in" component={SignInPage} />
+        <Route path="/sign_up" component={RegisterPage} />
+        <Route path="/checklist" component={Checklist} />
+      </Container>
     </Router>
     <link
       rel="stylesheet"
@@ -43,8 +46,7 @@ ReactDOM.render(
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossOrigin="anonymous"
     />
-  </div>,
-  // </Provider>,
+  </Provider>,
   document.getElementById("root")
 );
 

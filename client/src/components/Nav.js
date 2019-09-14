@@ -15,6 +15,7 @@ export default class Nav extends Component {
           <BNav className="legacy-nav">
               <BNav.Link href="/sign_in">Sign In</BNav.Link>
               <BNav.Link href="/sign_up">Sign Up</BNav.Link>
+              <BNav.Link href="/checklist">Checklist</BNav.Link>
           </BNav>
         </Navbar.Collapse>
       </Navbar>

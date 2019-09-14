@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-// import { connect } from "react-redux";
+import { connect } from "react-redux";
 import { signInUser } from "../../redux-token-auth-config";
 
-export default class SignInPage extends Component {
+class SignInPage extends Component {
   constructor(props) {
     super();
   }
@@ -27,7 +27,7 @@ export default class SignInPage extends Component {
   }
 }
 
-// export default connect(
-//   null,
-//   { signInUser },
-// )(SignInPage)
+export default connect(
+  null,
+  { signInUser },
+)(SignInPage)
