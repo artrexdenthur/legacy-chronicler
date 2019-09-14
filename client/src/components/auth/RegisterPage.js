@@ -3,8 +3,9 @@ import { connect } from "react-redux";
 import { registerUser } from "../../redux-token-auth-config";
 
 class RegisterPage extends Component {
-  constructor() {
+  constructor(props) {
     super();
+    this.submitForm = this.submitForm.bind(this)
   }
 
   submitForm(e) {
@@ -17,11 +18,10 @@ class RegisterPage extends Component {
   }
 
   render() {
-    const { submitForm } = this.submitForm.bind(this);
     return (
       <div>
         ... And the Reg form
-        <form onSubmit={submitForm}></form>
+        <form onSubmit={event => this.submitForm(event)}></form>
       </div>
     );
   }

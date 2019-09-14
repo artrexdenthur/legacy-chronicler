@@ -20,7 +20,7 @@ class SignInPage extends Component {
     const { submitForm } = this;
     return (
       <div>
-        This is where the SignIn form goes
+        This is where my SignIn form goes
         <form onSubmit={submitForm}></form>
       </div>
     );

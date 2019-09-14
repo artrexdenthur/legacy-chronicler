@@ -16,10 +16,12 @@
     "redux-token-auth": "^0.19.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "next start -p ${PORT}",
+    "heroku-postbuild": "next build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prestart": "next build"
   },
   "eslintConfig": {
     "extends": "react-app"
