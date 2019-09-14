@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
+// import { connect } from "react-redux";
 import { registerUser } from "../../redux-token-auth-config";
 
-class RegisterPage extends Component {
+export default class RegisterPage extends Component {
   constructor(props) {
     super();
     this.submitForm = this.submitForm.bind(this)
@@ -27,7 +27,7 @@ class RegisterPage extends Component {
   }
 }
 
-export default connect(
-  null,
-  { registerUser },
-)(RegisterPage)
+// export default connect(
+//   null,
+//   { registerUser },
+// )(RegisterPage)
