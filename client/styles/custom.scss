@@ -1,0 +1,19 @@
+/*! `Custom` Bootstrap 4 theme */
+@import url(https://fonts.googleapis.com/css?family=Vast+Shadow:200,300,400,700);
+$headings-font-family:Vast Shadow;
+
+// $enable-grid-classes:false;
+$primary:#2f3c48;
+$secondary:#6f7f8c;
+$success:#3e4d59;
+$danger:#cc330d;
+$info:#5c8f94;
+$warning:#6e9fa5;
+$light:#eceeec;
+$dark:#1e2b37;
+$spacer:1rem;
+$border-width:1px;
+$btn-border-radius:.25rem;
+@import "bootstrap";
+
+// Add SASS theme customizations here..
