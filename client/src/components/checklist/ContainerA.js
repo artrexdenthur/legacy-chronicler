@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import { Row, Col } from 'react-bootstrap'
+import Stateless01 from './Stateless01'
+import Stateless02 from './Stateless02'
 
 export default class ContainerA extends Component{
   constructor() {
@@ -7,7 +10,14 @@ export default class ContainerA extends Component{
 
   render() {
     return (
-      <h1>Hello from Container A (I'll be gone soon)</h1>
+      <Row>
+        <Col>
+          <Stateless01 adjectives={this.props.adjectives}/>
+        </Col>
+        <Col>
+          <Stateless02 nouns={this.props.nouns}/>
+        </Col>
+      </Row>
     )
   }
 }
