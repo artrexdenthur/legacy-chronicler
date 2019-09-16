@@ -1,5 +1,6 @@
 class AdjectivesController < ApplicationController
   def index
+    Adjective.first
     render json: Adjective.all, only: [:id, :name]
   end
 

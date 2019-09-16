@@ -16,6 +16,8 @@ $border-width:1px;
 $btn-border-radius:.25rem;
 @import "bootstrap";
 
+// Grid replacements that likely won't be used
+
 @mixin display-grid {
   display: -ms-grid;
   display: grid;
@@ -38,5 +40,61 @@ $btn-border-radius:.25rem;
 //   padding-right: 15%;
 // }
 
+// End Grid replacements
 
-// Add SASS theme customizations here..
+
+/* Begin copied from react-bootstrap-table.github.io */
+.react-bootstrap-table .reset-expansion-style {
+  padding: 0; }
+
+.react-bootstrap-table .row-expansion-style {
+  padding: 8px; }
+
+.react-bootstrap-table .row-expand-slide-appear {
+  max-height: 0;
+  overflow: hidden; }
+
+.react-bootstrap-table .row-expand-slide-appear-active {
+  max-height: 1000px;
+  transition: max-height 3s linear; }
+
+.react-bootstrap-table .row-expand-slide-exit {
+  max-height: 1000px; }
+
+.react-bootstrap-table .row-expand-slide-exit-active {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 400ms cubic-bezier(0, 0.95, 0, 0.95); }
+  
+/* End copied from react-bootstrap-table.github.io */
+
+
+
+// My handwritten custom styles
+
+.card, .card-title { // Makes the cards not appear squished
+  margin: 10px
+}
+input { // Makes the inputs not appear squished
+  margin: 10px
+}
+.table thead th { // With react-bootstrap-table filters, headings should be aligned top for consistent appearance
+  vertical-align: top
+}
+.order-4, .caret-4-desc, .caret-4-asc {  // react-boostrap-table sortable indicators will stay on the right side without cutting off titles
+  float: right
+}
+.text-filter { // react-bootstrap-table filters will be well-positioned
+  margin-left: auto;
+}
+.filter-label { // react-bootstrap-table filters will be in line with sort indicators sometimes
+  width: 85%;
+  float: left;
+}
+
+
+
+
+// End My Custom Styles
+
+@import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css"

@@ -1,229 +1,235 @@
 {
-  "App.js": "/packs/js/App-00d12bf83be0aac8c55c.js",
-  "App.js.map": "/packs/js/App-00d12bf83be0aac8c55c.js.map",
-  "actions/checklist/fetchConcepts.js": "/packs/js/actions/checklist/fetchConcepts-1cc470f35cafbc71b5dc.js",
-  "actions/checklist/fetchConcepts.js.map": "/packs/js/actions/checklist/fetchConcepts-1cc470f35cafbc71b5dc.js.map",
-  "actions/checklist/submitNewConcept.js": "/packs/js/actions/checklist/submitNewConcept-4b2efdbc9e20416f843e.js",
-  "actions/checklist/submitNewConcept.js.map": "/packs/js/actions/checklist/submitNewConcept-4b2efdbc9e20416f843e.js.map",
-  "components/MainNav.js": "/packs/js/components/MainNav-64fbdeef0d7c2b606299.js",
-  "components/MainNav.js.map": "/packs/js/components/MainNav-64fbdeef0d7c2b606299.js.map",
-  "components/auth/RegisterPage.js": "/packs/js/components/auth/RegisterPage-12931a10e936c2479aa7.js",
-  "components/auth/RegisterPage.js.map": "/packs/js/components/auth/RegisterPage-12931a10e936c2479aa7.js.map",
-  "components/auth/SignInPage.js": "/packs/js/components/auth/SignInPage-b70c75cac583bf4c4047.js",
-  "components/auth/SignInPage.js.map": "/packs/js/components/auth/SignInPage-b70c75cac583bf4c4047.js.map",
-  "components/checklist/Checklist.js": "/packs/js/components/checklist/Checklist-9057a3d62b6ef2e329d6.js",
-  "components/checklist/Checklist.js.map": "/packs/js/components/checklist/Checklist-9057a3d62b6ef2e329d6.js.map",
-  "components/checklist/ChecklistForm.js": "/packs/js/components/checklist/ChecklistForm-87e66faf22af43fc0188.js",
-  "components/checklist/ChecklistForm.js.map": "/packs/js/components/checklist/ChecklistForm-87e66faf22af43fc0188.js.map",
-  "components/checklist/ContainerA.js": "/packs/js/components/checklist/ContainerA-033c952a3c9bbe2beba1.js",
-  "components/checklist/ContainerA.js.map": "/packs/js/components/checklist/ContainerA-033c952a3c9bbe2beba1.js.map",
-  "components/checklist/ContainerB.js": "/packs/js/components/checklist/ContainerB-f3997636f9754a7fca2b.js",
-  "components/checklist/ContainerB.js.map": "/packs/js/components/checklist/ContainerB-f3997636f9754a7fca2b.js.map",
-  "components/checklist/Stateless01.js": "/packs/js/components/checklist/Stateless01-96c8b1ecc41a648b8587.js",
-  "components/checklist/Stateless01.js.map": "/packs/js/components/checklist/Stateless01-96c8b1ecc41a648b8587.js.map",
-  "components/checklist/Stateless02.js": "/packs/js/components/checklist/Stateless02-f93cdbea6500da40c4a7.js",
-  "components/checklist/Stateless02.js.map": "/packs/js/components/checklist/Stateless02-f93cdbea6500da40c4a7.js.map",
-  "components/checklist/Stateless03.js": "/packs/js/components/checklist/Stateless03-26df343f23e3488ae68c.js",
-  "components/checklist/Stateless03.js.map": "/packs/js/components/checklist/Stateless03-26df343f23e3488ae68c.js.map",
-  "components/checklist/Stateless04.js": "/packs/js/components/checklist/Stateless04-855e9e5034bd75867137.js",
-  "components/checklist/Stateless04.js.map": "/packs/js/components/checklist/Stateless04-855e9e5034bd75867137.js.map",
-  "components/checklist/Stateless05.js": "/packs/js/components/checklist/Stateless05-9d1886c091029b2eba3b.js",
-  "components/checklist/Stateless05.js.map": "/packs/js/components/checklist/Stateless05-9d1886c091029b2eba3b.js.map",
+  "App.js": "/packs/js/App-3a98a605d41426f7ac87.js",
+  "App.js.map": "/packs/js/App-3a98a605d41426f7ac87.js.map",
+  "actions/checklist/fetchConcepts.js": "/packs/js/actions/checklist/fetchConcepts-09359e1acec8b25ea4f4.js",
+  "actions/checklist/fetchConcepts.js.map": "/packs/js/actions/checklist/fetchConcepts-09359e1acec8b25ea4f4.js.map",
+  "actions/checklist/submitNewConcept.js": "/packs/js/actions/checklist/submitNewConcept-2aedd3207474f7abf4f5.js",
+  "actions/checklist/submitNewConcept.js.map": "/packs/js/actions/checklist/submitNewConcept-2aedd3207474f7abf4f5.js.map",
+  "components/MainNav.js": "/packs/js/components/MainNav-3f0e8d5cad13766e4d6c.js",
+  "components/MainNav.js.map": "/packs/js/components/MainNav-3f0e8d5cad13766e4d6c.js.map",
+  "components/auth/RegisterPage.js": "/packs/js/components/auth/RegisterPage-79c1a654344c66de2d3e.js",
+  "components/auth/RegisterPage.js.map": "/packs/js/components/auth/RegisterPage-79c1a654344c66de2d3e.js.map",
+  "components/auth/SignInPage.js": "/packs/js/components/auth/SignInPage-71a8d0709290309516da.js",
+  "components/auth/SignInPage.js.map": "/packs/js/components/auth/SignInPage-71a8d0709290309516da.js.map",
+  "components/checklist/Checklist.js": "/packs/js/components/checklist/Checklist-41c2db549db63e81c640.js",
+  "components/checklist/Checklist.js.map": "/packs/js/components/checklist/Checklist-41c2db549db63e81c640.js.map",
+  "components/checklist/ChecklistForm.js": "/packs/js/components/checklist/ChecklistForm-040f7ff06129c301ac6b.js",
+  "components/checklist/ChecklistForm.js.map": "/packs/js/components/checklist/ChecklistForm-040f7ff06129c301ac6b.js.map",
+  "components/checklist/ContainerA.js": "/packs/js/components/checklist/ContainerA-e1718055f38f7ac341f9.js",
+  "components/checklist/ContainerA.js.map": "/packs/js/components/checklist/ContainerA-e1718055f38f7ac341f9.js.map",
+  "components/checklist/ContainerB.js": "/packs/js/components/checklist/ContainerB-8d4ca24eaf6432041cc5.js",
+  "components/checklist/ContainerB.js.map": "/packs/js/components/checklist/ContainerB-8d4ca24eaf6432041cc5.js.map",
+  "components/checklist/Stateless01.js": "/packs/js/components/checklist/Stateless01-e0154242653d01d28a06.js",
+  "components/checklist/Stateless01.js.map": "/packs/js/components/checklist/Stateless01-e0154242653d01d28a06.js.map",
+  "components/checklist/Stateless02.js": "/packs/js/components/checklist/Stateless02-580ca225d33df1a98e4d.js",
+  "components/checklist/Stateless02.js.map": "/packs/js/components/checklist/Stateless02-580ca225d33df1a98e4d.js.map",
+  "components/checklist/Stateless03.js": "/packs/js/components/checklist/Stateless03-3d5140ea082ee2e2ce4f.js",
+  "components/checklist/Stateless03.js.map": "/packs/js/components/checklist/Stateless03-3d5140ea082ee2e2ce4f.js.map",
+  "components/checklist/Stateless04.js": "/packs/js/components/checklist/Stateless04-11850194212c0aeb7498.js",
+  "components/checklist/Stateless04.js.map": "/packs/js/components/checklist/Stateless04-11850194212c0aeb7498.js.map",
+  "components/checklist/Stateless05.js": "/packs/js/components/checklist/Stateless05-d6c156268e4bf8adf750.js",
+  "components/checklist/Stateless05.js.map": "/packs/js/components/checklist/Stateless05-d6c156268e4bf8adf750.js.map",
+  "components/legacy/expandRowModule.js": "/packs/js/components/legacy/expandRowModule-5775d795856e989c18f2.js",
+  "components/legacy/expandRowModule.js.map": "/packs/js/components/legacy/expandRowModule-5775d795856e989c18f2.js.map",
   "entrypoints": {
     "actions/checklist/fetchConcepts": {
       "js": [
-        "/packs/js/actions/checklist/fetchConcepts-1cc470f35cafbc71b5dc.js"
+        "/packs/js/actions/checklist/fetchConcepts-09359e1acec8b25ea4f4.js"
       ],
       "js.map": [
-        "/packs/js/actions/checklist/fetchConcepts-1cc470f35cafbc71b5dc.js.map"
+        "/packs/js/actions/checklist/fetchConcepts-09359e1acec8b25ea4f4.js.map"
       ]
     },
     "actions/checklist/submitNewConcept": {
       "js": [
-        "/packs/js/actions/checklist/submitNewConcept-4b2efdbc9e20416f843e.js"
+        "/packs/js/actions/checklist/submitNewConcept-2aedd3207474f7abf4f5.js"
       ],
       "js.map": [
-        "/packs/js/actions/checklist/submitNewConcept-4b2efdbc9e20416f843e.js.map"
+        "/packs/js/actions/checklist/submitNewConcept-2aedd3207474f7abf4f5.js.map"
       ]
     },
     "App": {
       "js": [
-        "/packs/js/App-00d12bf83be0aac8c55c.js"
+        "/packs/js/App-3a98a605d41426f7ac87.js"
       ],
       "js.map": [
-        "/packs/js/App-00d12bf83be0aac8c55c.js.map"
+        "/packs/js/App-3a98a605d41426f7ac87.js.map"
       ]
     },
     "components/auth/RegisterPage": {
       "js": [
-        "/packs/js/components/auth/RegisterPage-12931a10e936c2479aa7.js"
+        "/packs/js/components/auth/RegisterPage-79c1a654344c66de2d3e.js"
       ],
       "js.map": [
-        "/packs/js/components/auth/RegisterPage-12931a10e936c2479aa7.js.map"
+        "/packs/js/components/auth/RegisterPage-79c1a654344c66de2d3e.js.map"
       ]
     },
     "components/auth/SignInPage": {
       "js": [
-        "/packs/js/components/auth/SignInPage-b70c75cac583bf4c4047.js"
+        "/packs/js/components/auth/SignInPage-71a8d0709290309516da.js"
       ],
       "js.map": [
-        "/packs/js/components/auth/SignInPage-b70c75cac583bf4c4047.js.map"
+        "/packs/js/components/auth/SignInPage-71a8d0709290309516da.js.map"
       ]
     },
     "components/checklist/Checklist": {
       "js": [
-        "/packs/js/components/checklist/Checklist-9057a3d62b6ef2e329d6.js"
+        "/packs/js/components/checklist/Checklist-41c2db549db63e81c640.js"
       ],
       "js.map": [
-        "/packs/js/components/checklist/Checklist-9057a3d62b6ef2e329d6.js.map"
+        "/packs/js/components/checklist/Checklist-41c2db549db63e81c640.js.map"
       ]
     },
     "components/checklist/ChecklistForm": {
       "js": [
-        "/packs/js/components/checklist/ChecklistForm-87e66faf22af43fc0188.js"
+        "/packs/js/components/checklist/ChecklistForm-040f7ff06129c301ac6b.js"
       ],
       "js.map": [
-        "/packs/js/components/checklist/ChecklistForm-87e66faf22af43fc0188.js.map"
+        "/packs/js/components/checklist/ChecklistForm-040f7ff06129c301ac6b.js.map"
       ]
     },
     "components/checklist/ContainerA": {
       "js": [
-        "/packs/js/components/checklist/ContainerA-033c952a3c9bbe2beba1.js"
+        "/packs/js/components/checklist/ContainerA-e1718055f38f7ac341f9.js"
       ],
       "js.map": [
-        "/packs/js/components/checklist/ContainerA-033c952a3c9bbe2beba1.js.map"
+        "/packs/js/components/checklist/ContainerA-e1718055f38f7ac341f9.js.map"
       ]
     },
     "components/checklist/ContainerB": {
       "js": [
-        "/packs/js/components/checklist/ContainerB-f3997636f9754a7fca2b.js"
+        "/packs/js/components/checklist/ContainerB-8d4ca24eaf6432041cc5.js"
       ],
       "js.map": [
-        "/packs/js/components/checklist/ContainerB-f3997636f9754a7fca2b.js.map"
+        "/packs/js/components/checklist/ContainerB-8d4ca24eaf6432041cc5.js.map"
       ]
     },
     "components/checklist/Stateless01": {
       "js": [
-        "/packs/js/components/checklist/Stateless01-96c8b1ecc41a648b8587.js"
+        "/packs/js/components/checklist/Stateless01-e0154242653d01d28a06.js"
       ],
       "js.map": [
-        "/packs/js/components/checklist/Stateless01-96c8b1ecc41a648b8587.js.map"
+        "/packs/js/components/checklist/Stateless01-e0154242653d01d28a06.js.map"
       ]
     },
     "components/checklist/Stateless02": {
       "js": [
-        "/packs/js/components/checklist/Stateless02-f93cdbea6500da40c4a7.js"
+        "/packs/js/components/checklist/Stateless02-580ca225d33df1a98e4d.js"
       ],
       "js.map": [
-        "/packs/js/components/checklist/Stateless02-f93cdbea6500da40c4a7.js.map"
+        "/packs/js/components/checklist/Stateless02-580ca225d33df1a98e4d.js.map"
       ]
     },
     "components/checklist/Stateless03": {
       "js": [
-        "/packs/js/components/checklist/Stateless03-26df343f23e3488ae68c.js"
+        "/packs/js/components/checklist/Stateless03-3d5140ea082ee2e2ce4f.js"
       ],
       "js.map": [
-        "/packs/js/components/checklist/Stateless03-26df343f23e3488ae68c.js.map"
+        "/packs/js/components/checklist/Stateless03-3d5140ea082ee2e2ce4f.js.map"
       ]
     },
     "components/checklist/Stateless04": {
       "js": [
-        "/packs/js/components/checklist/Stateless04-855e9e5034bd75867137.js"
+        "/packs/js/components/checklist/Stateless04-11850194212c0aeb7498.js"
       ],
       "js.map": [
-        "/packs/js/components/checklist/Stateless04-855e9e5034bd75867137.js.map"
+        "/packs/js/components/checklist/Stateless04-11850194212c0aeb7498.js.map"
       ]
     },
     "components/checklist/Stateless05": {
       "js": [
-        "/packs/js/components/checklist/Stateless05-9d1886c091029b2eba3b.js"
+        "/packs/js/components/checklist/Stateless05-d6c156268e4bf8adf750.js"
       ],
       "js.map": [
-        "/packs/js/components/checklist/Stateless05-9d1886c091029b2eba3b.js.map"
+        "/packs/js/components/checklist/Stateless05-d6c156268e4bf8adf750.js.map"
+      ]
+    },
+    "components/legacy/expandRowModule": {
+      "js": [
+        "/packs/js/components/legacy/expandRowModule-5775d795856e989c18f2.js"
+      ],
+      "js.map": [
+        "/packs/js/components/legacy/expandRowModule-5775d795856e989c18f2.js.map"
       ]
     },
     "components/MainNav": {
       "js": [
-        "/packs/js/components/MainNav-64fbdeef0d7c2b606299.js"
+        "/packs/js/components/MainNav-3f0e8d5cad13766e4d6c.js"
       ],
       "js.map": [
-        "/packs/js/components/MainNav-64fbdeef0d7c2b606299.js.map"
+        "/packs/js/components/MainNav-3f0e8d5cad13766e4d6c.js.map"
       ]
     },
     "hello_react": {
       "js": [
-        "/packs/js/hello_react-5ee042cbe950dfadc156.js"
+        "/packs/js/hello_react-fe6005f6cdec75a4b833.js"
       ],
       "js.map": [
-        "/packs/js/hello_react-5ee042cbe950dfadc156.js.map"
+        "/packs/js/hello_react-fe6005f6cdec75a4b833.js.map"
       ]
     },
     "index": {
-      "css": [
-        "/packs/css/index-279a08c3.css"
-      ],
       "js": [
-        "/packs/js/index-d3b7f83db4d3379864a6.js"
+        "/packs/js/index-050fa100b1c381fd3bbd.js"
       ],
       "js.map": [
-        "/packs/js/index-d3b7f83db4d3379864a6.js.map"
+        "/packs/js/index-050fa100b1c381fd3bbd.js.map"
       ]
     },
     "logo": {
       "js": [
-        "/packs/js/logo-93f9dacde9b4ebfcecb5.js"
+        "/packs/js/logo-89cc4790794a2cb047a8.js"
       ],
       "js.map": [
-        "/packs/js/logo-93f9dacde9b4ebfcecb5.js.map"
+        "/packs/js/logo-89cc4790794a2cb047a8.js.map"
       ]
     },
     "reducers": {
       "js": [
-        "/packs/js/reducers-197525bad69d4656178c.js"
+        "/packs/js/reducers-1e7e080f94855476777e.js"
       ],
       "js.map": [
-        "/packs/js/reducers-197525bad69d4656178c.js.map"
+        "/packs/js/reducers-1e7e080f94855476777e.js.map"
       ]
     },
     "redux-token-auth-config": {
       "js": [
-        "/packs/js/redux-token-auth-config-7e09480e334c1a8b22d6.js"
+        "/packs/js/redux-token-auth-config-7c20adca2c3b48bb160c.js"
       ],
       "js.map": [
-        "/packs/js/redux-token-auth-config-7e09480e334c1a8b22d6.js.map"
+        "/packs/js/redux-token-auth-config-7c20adca2c3b48bb160c.js.map"
       ]
     },
     "redux/initial_state": {
       "js": [
-        "/packs/js/redux/initial_state-6584a05079e5f539bdd9.js"
+        "/packs/js/redux/initial_state-eb6a7568518d2648de37.js"
       ],
       "js.map": [
-        "/packs/js/redux/initial_state-6584a05079e5f539bdd9.js.map"
+        "/packs/js/redux/initial_state-eb6a7568518d2648de37.js.map"
       ]
     },
     "serviceWorker": {
       "js": [
-        "/packs/js/serviceWorker-609739e40aaf0814310e.js"
+        "/packs/js/serviceWorker-635e44b02101bfd59f97.js"
       ],
       "js.map": [
-        "/packs/js/serviceWorker-609739e40aaf0814310e.js.map"
+        "/packs/js/serviceWorker-635e44b02101bfd59f97.js.map"
       ]
     }
   },
-  "hello_react.js": "/packs/js/hello_react-5ee042cbe950dfadc156.js",
-  "hello_react.js.map": "/packs/js/hello_react-5ee042cbe950dfadc156.js.map",
-  "index.css": "/packs/css/index-279a08c3.css",
-  "index.js": "/packs/js/index-d3b7f83db4d3379864a6.js",
-  "index.js.map": "/packs/js/index-d3b7f83db4d3379864a6.js.map",
-  "logo.js": "/packs/js/logo-93f9dacde9b4ebfcecb5.js",
-  "logo.js.map": "/packs/js/logo-93f9dacde9b4ebfcecb5.js.map",
+  "hello_react.js": "/packs/js/hello_react-fe6005f6cdec75a4b833.js",
+  "hello_react.js.map": "/packs/js/hello_react-fe6005f6cdec75a4b833.js.map",
+  "index.js": "/packs/js/index-050fa100b1c381fd3bbd.js",
+  "index.js.map": "/packs/js/index-050fa100b1c381fd3bbd.js.map",
+  "logo.js": "/packs/js/logo-89cc4790794a2cb047a8.js",
+  "logo.js.map": "/packs/js/logo-89cc4790794a2cb047a8.js.map",
   "media/src/logo.svg": "/packs/media/src/logo-5d5d9eefa31e5e13a6610d9fa7a283bb.svg",
-  "reducers.js": "/packs/js/reducers-197525bad69d4656178c.js",
-  "reducers.js.map": "/packs/js/reducers-197525bad69d4656178c.js.map",
-  "redux-token-auth-config.js": "/packs/js/redux-token-auth-config-7e09480e334c1a8b22d6.js",
-  "redux-token-auth-config.js.map": "/packs/js/redux-token-auth-config-7e09480e334c1a8b22d6.js.map",
-  "redux/initial_state.js": "/packs/js/redux/initial_state-6584a05079e5f539bdd9.js",
-  "redux/initial_state.js.map": "/packs/js/redux/initial_state-6584a05079e5f539bdd9.js.map",
-  "serviceWorker.js": "/packs/js/serviceWorker-609739e40aaf0814310e.js",
-  "serviceWorker.js.map": "/packs/js/serviceWorker-609739e40aaf0814310e.js.map"
+  "reducers.js": "/packs/js/reducers-1e7e080f94855476777e.js",
+  "reducers.js.map": "/packs/js/reducers-1e7e080f94855476777e.js.map",
+  "redux-token-auth-config.js": "/packs/js/redux-token-auth-config-7c20adca2c3b48bb160c.js",
+  "redux-token-auth-config.js.map": "/packs/js/redux-token-auth-config-7c20adca2c3b48bb160c.js.map",
+  "redux/initial_state.js": "/packs/js/redux/initial_state-eb6a7568518d2648de37.js",
+  "redux/initial_state.js.map": "/packs/js/redux/initial_state-eb6a7568518d2648de37.js.map",
+  "serviceWorker.js": "/packs/js/serviceWorker-635e44b02101bfd59f97.js",
+  "serviceWorker.js.map": "/packs/js/serviceWorker-635e44b02101bfd59f97.js.map"
 }

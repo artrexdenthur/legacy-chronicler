@@ -36,6 +36,7 @@ ReactDOM.render(
       <MainNav />
       <Container>
         <Route path="/" exact component={App} />
+        <Route path="/legacy" component={App} />
         <Route path="/sign_in" component={SignInPage} />
         <Route path="/sign_up" component={RegisterPage} />
         <Route path="/checklist" component={Checklist} />

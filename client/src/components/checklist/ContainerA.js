@@ -67,7 +67,7 @@ class ContainerA extends Component {
       handleOnSubmit={this.handleConceptSubmit(type)} /> 
     } else {
       return (
-        <Button onClick={() => this.handleOnClick(type)}>
+        <Button className='text-center my-sm-2' onClick={() => this.handleOnClick(type)}>
           {"New " + type.slice(0, 1).toUpperCase() + type.slice(1)}
         </Button>
       );

@@ -23,7 +23,7 @@ class Checklist extends Component {
         <br/>
         <h1 className="text-center">🙏 The Inaccurate Conception 🙏</h1>
         <br/>
-        <Tabs defaultActiveKey="A" id="checklist-tabs">
+        <Tabs variant="pills" defaultActiveKey="A" id="checklist-tabs">
           <Tab eventKey="A" title="Adjectives and Nouns">
             <Card>
               <ContainerA />
