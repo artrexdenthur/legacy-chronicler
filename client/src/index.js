@@ -2,7 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import Nav from "./components/Nav";
+import MainNav from "./components/MainNav";
 import Checklist from "./components/checklist/Checklist";
 import Container from "react-bootstrap/Container";
 import 'styles/custom'
@@ -33,7 +33,7 @@ verifyCredentials(store); // Is the user already logged in?
 ReactDOM.render(
   <Provider store={store}>
     <Router>
-      <Nav />
+      <MainNav />
       <Container>
         <Route path="/" exact component={App} />
         <Route path="/sign_in" component={SignInPage} />

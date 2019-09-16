@@ -1,50 +1,65 @@
-import React, { Component } from 'react'
-import { Route } from 'react-router-dom'
-import { LinkContainer } from 'react-router-bootstrap'
-import { Button, Tab, Tabs } from 'react-bootstrap'
-import ContainerA from './ContainerA'
-import ContainerB from './ContainerB'
-import fetchConcepts from '../../actions/checklist/fetchConcepts'
-import { connect } from 'react-redux'
+import React, { Component } from "react";
+import { Route } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
+import { Button, Navbar, Nav, Tab, Tabs, Card } from "react-bootstrap";
+import ContainerA from "./ContainerA";
+import ContainerB from "./ContainerB";
+import Stateless04 from "./Stateless04";
+import Stateless01 from "./Stateless01";
+import fetchConcepts from "../../actions/checklist/fetchConcepts";
+import { connect } from "react-redux";
 
-class Checklist extends Component{
-
+class Checklist extends Component {
   componentDidMount() {
-    this.props.fetchConcepts
-    console.log(this.props.state)
+    this.props.fetchConcepts;
   }
 
   render() {
-    const { path } = this.props.match
-    const routeA = path + "/containera"
-    const routeB = path + "/containerb"
-    const { adjectives, nouns, concepts } = this.props.state
+    const { path } = this.props.match;
+    const routeA = path + "/containera";
+    const routeB = path + "/containerb";
     return (
       <div id="checklist-root">
-        <h1>Inaccurate Conceptions</h1>
+        <br/>
+        <h1 className="text-center">🙏 The Inaccurate Conception 🙏</h1>
+        <br/>
         <Tabs defaultActiveKey="A" id="checklist-tabs">
           <Tab eventKey="A" title="Adjectives and Nouns">
-            <ContainerA adjectives={adjectives} nouns={nouns} />
+            <Card>
+              <ContainerA />
+            </Card>
           </Tab>
           <Tab eventKey="B" title="Concepts">
-            <ContainerB concepts={concepts} />
+            <Card>
+                <ContainerB />
+            </Card>
+          </Tab>
+          <Tab eventKey="about" title="About">
+            <Card>
+                <Stateless04 />
+            </Card>
+          </Tab>
+          <Tab eventKey="howto" title="How to Use">
+            <Card>
+              <Stateless01 />
+            </Card>
           </Tab>
         </Tabs>
-        <br/>
+        {/* <Navbar className="bg-light"><Nav.Link href={location.pathname + "/adjectives_and_nouns"}>Adj&N</Nav.Link></Navbar>
+                <Route path={location.pathname + "/adjectives_and_nouns"} component={ ContainerA } /> */}
+        <br />
       </div>
-    )
+    );
   }
 }
 
-const mapDispatch = (dispatch) => {
+const mapDispatch = dispatch => {
   return {
-    fetchConcepts: dispatch(fetchConcepts()),
-  }
-}
+    fetchConcepts: dispatch(fetchConcepts())
+  };
+};
 
-const mapState = (state) => {
-  return {
-    state: state.concepts
-  }
-}
-export default connect(mapState, mapDispatch)(Checklist)
+export default connect(
+  null,
+  mapDispatch
+)(Checklist);

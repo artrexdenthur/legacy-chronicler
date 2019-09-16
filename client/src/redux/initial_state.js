@@ -7,7 +7,8 @@ const initialState = {
         firstName: null
       }
     }
-  }
+  },
+  csrfToken: document.getElementsByName("csrf-token")[0].content
   // All your other state
 }
 

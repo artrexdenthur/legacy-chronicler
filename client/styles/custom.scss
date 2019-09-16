@@ -16,4 +16,27 @@ $border-width:1px;
 $btn-border-radius:.25rem;
 @import "bootstrap";
 
+@mixin display-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+@mixin basic-styles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-parent {
+  @include display-grid;
+}
+
+// .container {
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding-left: 15%;
+//   padding-right: 15%;
+// }
+
+
 // Add SASS theme customizations here..
