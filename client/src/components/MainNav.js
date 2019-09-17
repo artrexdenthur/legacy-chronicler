@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import { Nav, Navbar } from "react-bootstrap";
+import logo from '../../public/logo.png'
 
 export default class MainNav extends Component {
   render() {
@@ -9,7 +10,19 @@ export default class MainNav extends Component {
       <Navbar bg="light" expand="lg">
         <Navbar.Toggle />
         <LinkContainer to="/">
-          <Navbar.Brand>Legacy Chronicler</Navbar.Brand>
+          <Navbar.Brand>
+            <img
+            alt='legacy-chronicler-home'
+            src={logo} 
+            style= {{
+              width: 64,
+              height: 64,
+              marginRight: 20
+            }}
+            clasName="d-inline-block align-top"
+            />
+            {'Legacy Chronicler'}
+            </Navbar.Brand>
         </LinkContainer>
         <Navbar.Collapse id="legacy-navbar-nav">
           <Nav id="legacy-nav">
