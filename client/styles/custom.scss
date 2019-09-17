@@ -92,6 +92,13 @@ input { // Makes the inputs not appear squished
   float: left;
 }
 
+.react-bootstrap-table table { // So react-bootstrap-tables won't squish
+  overflow: auto;
+  display: block;
+  table-layout: auto;
+  margin-left: auto;
+}
+
 
 
 

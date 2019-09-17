@@ -10,7 +10,7 @@ import fetchConcepts from "../../actions/checklist/fetchConcepts";
 import { connect } from "react-redux";
 
 class Checklist extends Component {
-  componentDidMount() {
+  componentDidUpdate() {
     this.props.fetchConcepts;
   }
 
@@ -19,11 +19,11 @@ class Checklist extends Component {
     const routeA = path + "/containera";
     const routeB = path + "/containerb";
     return (
-      <div id="checklist-root">
+      <div className="mx-5" id="checklist-root"> {/* Spacer class */}
         <br/>
         <h1 className="text-center">🙏 The Inaccurate Conception 🙏</h1>
         <br/>
-        <Tabs variant="pills" defaultActiveKey="A" id="checklist-tabs">
+        <Tabs fill variant="pills" defaultActiveKey="A" className="mx-auto bg-secondary" id="checklist-tabs">
           <Tab eventKey="A" title="Adjectives and Nouns">
             <Card>
               <ContainerA />

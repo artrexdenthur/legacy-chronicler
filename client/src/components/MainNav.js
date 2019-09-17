@@ -13,17 +13,25 @@ export default class MainNav extends Component {
         </LinkContainer>
         <Navbar.Collapse id="legacy-navbar-nav">
           <Nav id="legacy-nav">
-            <Nav.Link href="#">Legacies</Nav.Link>
+            <LinkContainer to="/legacies">
+              <Nav.Link>Legacies</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
           <Nav id="checklist-nav" className="justify-content-end">
-            <Nav.Link href="/checklist">Conception</Nav.Link>
+            <LinkContainer to="/checklist">
+              <Nav.Link>Conception</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
         <Nav id="nav-user" className="justify-content-end">
-          <Nav.Link href="/sign_in">Sign In</Nav.Link>
-          <Nav.Link href="/sign_up">Sign Up</Nav.Link>
+          <LinkContainer to="/sign_in">
+            <Nav.Link>Sign In</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/sign_up">
+          <Nav.Link>Sign Up</Nav.Link>
+          </LinkContainer>
         </Nav>
       </Navbar>
     );
