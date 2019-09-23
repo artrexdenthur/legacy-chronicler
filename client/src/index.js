@@ -19,6 +19,8 @@ import initial_state from "./redux/initial_state";
 import { verifyCredentials } from "./redux-token-auth-config";
 import RegisterPage from "./components/auth/RegisterPage";
 import SignInPage from "./components/auth/SignInPage";
+import axios from 'axios' // RTA uses axios and we'll need to configure it for Rails CSRF tokens below
+
 
 // React Router
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -30,7 +32,11 @@ const store = createStore(
   initial_state,
   composeEnhancers(applyMiddleware(thunk))
 );
-verifyCredentials(store); // Is the user already logged in?
+
+let csrfToken = document.getElementsByName("csrf-token")[0].content
+axios.defaults.headers.common['X-CSRF-Token'] = csrfToken
+verifyCredentials(store); 
+
 ReactDOM.render(
   <Provider store={store}>
     <Router>

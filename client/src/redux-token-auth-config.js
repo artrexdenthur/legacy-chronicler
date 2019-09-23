@@ -1,5 +1,9 @@
+import axios from 'axios'
 import {generateAuthActions } from 'redux-token-auth'
 import { authUrl } from '../constants'
+
+// Sets user attributes to match those in the Rails API according to the r-t-a setup guide. 
+
 
 const config = {
   authUrl,
