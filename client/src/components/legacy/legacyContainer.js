@@ -4,6 +4,7 @@ import AllTable from "./allTable";
 import { Container, Row, Col, Nav, Navbar, Dropdown } from "react-bootstrap";
 import { Route } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
+import SpoilerBar from "./spoilerBar";
 
 class LegacyContainer extends Component {
   constructor() {
@@ -46,6 +47,7 @@ class LegacyContainer extends Component {
 
         <Row className="overflow-auto">
           <Col >
+            <SpoilerBar /> 
             <Route path="/legacies/all" component={AllTable} />
           </Col>
         </Row>

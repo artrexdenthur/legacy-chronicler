@@ -1,0 +1,77 @@
+{
+  "month": {
+    "00": {
+      "roles": [
+        "medic",
+        "generalist",
+        "scientist",
+        "researcher",
+        "dispatcher"
+      ]
+    },
+    "01": {
+      "roles": [
+        "quarantine specialist"
+      ]
+    },
+    "02": {
+      "roles": [
+
+      ]
+    },
+    "03": {
+      "roles": [
+
+      ]
+    },
+    "04": {
+      "roles": [
+
+      ]
+    },
+    "05": {
+      "roles": [
+
+      ]
+    },
+    "06": {
+      "roles": [
+
+      ],
+      "spoilers" : "searches"
+    },
+    "07": {
+      "roles": [
+
+      ]
+    },
+    "08": {
+      "roles": [
+
+      ]
+    },
+    "09": {
+      "roles": [
+
+      ]
+    },
+    "10": {
+      "roles": [
+
+      ]
+    },
+    "11": {
+      "roles": [
+
+      ]
+    },
+    "12": {
+      "roles": [
+
+      ]
+    }
+  },
+  "searches": {
+
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "owner": "paul",
+  "date_started": "",
+  "date_completed": "",
+  "diseases": {
+    "COdA": "yellow",
+    "yellow": "COdA",
+    "red": "Red Masque",
+    "blue": "Capitalistic Class",
+    "black": "Bourgeois Plague"
+  },
+  "cities": {
+    "Atlanta": {
+      "color": "blue",
+      "panic_level": "2",
+      "buildings": {
+        "research station" : "destroyed",
+        "military base" : "no",
+        "vaccine factory" : "no"
+      },
+      "road_blocks" : {},
+      "faded" : "false",
+      "vaccinated" : "false"
+
+    }
+  },
+  "plays" : {
+    "0" : {
+      "players" : {
+        "0" : {
+          "name" : "",
+          "character" : ""
+        }
+      },
+      "date" : {},
+      "month" : {},
+      "won" : {}
+    }
+  },
+  "characters": {
+    "medic" : {
+      "name" : "Edward Croxton",
+      "relationship 1": "",
+      "relationship 2": "",
+      "upgrade 1": "local connections",
+      "upgrade 2": "",
+      "scar 1": "",
+      "scar 2": "",
+      "service record": {
+        "0" : {
+          "month": "01",
+          "player": "Austin",
+          "win": "false",
+          "date": "6/20"
+        },
+        "1" : {
+          "month": "02",
+          "player": "Katrielle",
+          "win": "true",
+          "date": "7/15"
+        },
+        "2" : {
+          "month": "02",
+          "player": "Katrielle",
+          "win": "true",
+          "date": "9/5"
+        },
+        "3" : {
+          "month": "04",
+          "player": "Katrielle",
+          "win": "true",
+          "date": "9/13"
+        },
+        "4" : {
+          "month": "05",
+          "player": "Katrielle",
+          "win": "true",
+          "date": "10/26"
+        },
+        "5" : {
+          "month": "06",
+          "player": "Katrielle",
+          "win": "false",
+          "date": "12/2"
+        },
+        "6" : {
+          "month": "06",
+          "player": "Katrielle",
+          "win": "true",
+          "date": "1/22"
+        },
+        "7" : {
+          "month": "07",
+          "player": "Katrielle",
+          "win": "false",
+          "date": "1/22"
+        },
+        "8" : {
+          "month": "07",
+          "player": "Katrielle",
+          "win": "true",
+          "date": "5/15"
+        },
+        "9" : {
+          "month": "12",
+          "player": "Austin",
+          "win": "false",
+          "date": "7/30"
+        },
+        "10" : {
+          "month": "12",
+          "player": "Austin",
+          "win": "true",
+          "date": ""
+        }
+      }
+    }
+  },
+  "reckoning": {
+    "calendar": {
+      "first_half_points": "240",
+      "second_half_points": "80",
+      "subtotal": "320"
+    },
+    "cities" : {
+      "panic_0-1" : "130",
+      "panic_2-3" : "26",
+      "panic_4" : "4",
+      "subtotal" : "160"
+    },
+    "bonus" : {
+      "every_faded_city_vaccinated" : "100",
+      "atlanta_stockpile_destroyed" : "100",
+      "no_military_bases_remaining" : "80",
+      "opened_package_8" : "0",
+      "team_bravo_used" : "0",
+      "subtotal" : "280"
+    },
+    "grand_total" : "760"
+  }
+}

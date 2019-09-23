@@ -19,7 +19,7 @@ export default class MainNav extends Component {
               height: 64,
               marginRight: 20
             }}
-            clasName="d-inline-block align-top"
+            className="d-inline-block align-top"
             />
             {'Legacy Chronicler'}
             </Navbar.Brand>
