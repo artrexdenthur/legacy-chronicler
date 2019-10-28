@@ -11,7 +11,7 @@ function csrfTokenReducer(state = '') {
   return state
 }
 
-function conceptsReducer(state = { message: {}, concepts: [], nouns: [], adjectives: [] }, action) {
+function conceptsReducer(state = { message: {}, concepts: [], nouns: [], adjectives: [], randomConcepts: [] }, action) {
   switch (action.type) {
     case 'FETCH_CONCEPTS':
       console.log("Fetching concepts")
@@ -28,6 +28,14 @@ function conceptsReducer(state = { message: {}, concepts: [], nouns: [], adjecti
     case 'POST_CONCEPT':
       console.log("Posting concept")
       return { ...state, message: {title: "Sending", content: "Now posting your entry"}}
+    case 'CREATE_CONCEPT': // Randomly generates a Concept from the sub-concepts in state
+      let randomNoun = state.nouns[Math.floor(Math.random() * state.nouns.length)].name
+      let randomAdj = state.adjectives[Math.floor(Math.random() * state.nouns.length)].name
+      let newRandom = {
+        name: randomAdj + ' ' + randomNoun,
+        type: 'random concept'
+      }
+      return { ...state, randomConcepts: [ ...state.randomConcepts, newRandom ] }
     default:
       return state
   }

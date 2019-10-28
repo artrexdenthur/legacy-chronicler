@@ -3,7 +3,7 @@ import BootstrapTable from "react-bootstrap-table-next";
 import filterFactory, { textFilter } from "react-bootstrap-table2-filter";
 import ExpandRowModule from "./expandRowModule";
 
-function AllTable() {
+function CampaignTable() {
   const columns = [
     {
       dataField: "id",
@@ -103,4 +103,4 @@ function AllTable() {
   );
 }
 
-export default AllTable;
+export default CampaignTable;

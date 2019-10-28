@@ -6,7 +6,7 @@ export default function Concept(props){
   const options = props.handleSelect ?
     {
       action: true,
-      active: props.selected === props.concept.id,
+      active: (props.selected === props.concept.id) || (props.active),
       onClick: () => props.handleSelect(props.concept.id)
     } :
     {}

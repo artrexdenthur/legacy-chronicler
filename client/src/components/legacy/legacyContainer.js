@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import AllTable from "./allTable";
 import { Container, Row, Col, Nav, Navbar, Dropdown } from "react-bootstrap";
 import { Route } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import SpoilerBar from "./spoilerBar";
+import CampaignTable from "./campaignTable";
 
 class LegacyContainer extends Component {
   constructor() {
@@ -14,12 +14,12 @@ class LegacyContainer extends Component {
   render() {
     return (
       <>
-        <h1 className="text-center bg-secondary mt-md-10">Legacies</h1>
+        <h1 className="text-center bg-secondary mt-md-10">Legacy Campaigns</h1>
         <Navbar className="bg-secondary" variant="tabs" expand="lg">
           <Nav variant="pills">
             <Nav.Item>
               <LinkContainer to="/legacies/all">
-                <Nav.Link>View All Legacies</Nav.Link>
+                <Nav.Link>View All Campaigns</Nav.Link>
               </LinkContainer>
             </Nav.Item>
             <Dropdown as={Nav.Item}>
@@ -40,7 +40,7 @@ class LegacyContainer extends Component {
           </Nav>
           <Nav className="justify-content-end">
             <LinkContainer to="#me">
-              <Nav.Link>My Legacies</Nav.Link>
+              <Nav.Link>My Campaigns</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar>
@@ -48,7 +48,7 @@ class LegacyContainer extends Component {
         <Row className="overflow-auto">
           <Col >
             <SpoilerBar /> 
-            <Route path="/legacies/all" component={AllTable} />
+            <Route path="/legacies/campaigns" component={CampaignTable} />
           </Col>
         </Row>
       </>

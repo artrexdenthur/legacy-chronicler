@@ -26,7 +26,7 @@ export default class MainNav extends Component {
         </LinkContainer>
         <Navbar.Collapse id="legacy-navbar-nav">
           <Nav id="legacy-nav">
-            <LinkContainer to="/legacies">
+            <LinkContainer to="/legacies/campaigns">
               <Nav.Link>Legacies</Nav.Link>
             </LinkContainer>
           </Nav>
