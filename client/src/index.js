@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import MainNav from "./components/MainNav";
-import Checklist from "./components/checklist/Checklist";
+import Conceptualizer from "./components/conceptualizer/Conceptualizer";
 import LegacyContainer from "./components/legacy/legacyContainer"
 import Container from "react-bootstrap/Container";
 import 'styles/custom'
@@ -46,7 +46,7 @@ ReactDOM.render(
         <Route path="/legacies" component={LegacyContainer} />
         <Route path="/sign_in" component={SignInPage} />
         <Route path="/sign_up" component={RegisterPage} />
-        <Route path="/checklist" component={Checklist} />
+        <Route path="/conceptualizer" component={Conceptualizer} />
       </Container>
     </Router>
     {/* <link

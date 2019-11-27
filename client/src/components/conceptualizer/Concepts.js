@@ -3,7 +3,7 @@
 import React from "react";
 import { Card, ListGroup } from "react-bootstrap";
 import { withRouter, Route } from "react-router-dom";
-import Concept from "./Stateless03";
+import Concept from "./Concept";
 
 export default function Concepts(props) {
   // Spawns indexes for any kind of Concept

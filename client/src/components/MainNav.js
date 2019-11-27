@@ -32,9 +32,9 @@ export default class MainNav extends Component {
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
-          <Nav id="checklist-nav" className="justify-content-end">
-            <LinkContainer to="/checklist">
-              <Nav.Link>Conception</Nav.Link>
+          <Nav id="conceptualizer-nav" className="justify-content-end">
+            <LinkContainer to="/conceptualizer">
+              <Nav.Link>Conceptualizer</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>

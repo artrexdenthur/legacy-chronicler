@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import Concepts from "./Stateless05";
+import Concepts from "./Concepts";
 import { Row, Col, Button } from "react-bootstrap";
 import submitNewConcept from '../../actions/checklist/submitNewConcept'
 

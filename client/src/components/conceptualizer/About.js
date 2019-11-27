@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
-export default function Stateless04(props) {
+export default function About(props) {
   // About
   return (
     <>

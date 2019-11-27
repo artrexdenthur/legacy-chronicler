@@ -2,14 +2,14 @@ import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
 import { Button, Navbar, Nav, Tab, Tabs, Card } from "react-bootstrap";
-import ContainerA from "./ContainerA";
-import ContainerB from "./ContainerB";
-import Stateless04 from "./Stateless04";
-import Stateless01 from "./Stateless01";
+import ContainerA from "./AdjNounContainer";
+import ContainerB from "./ConceptualizerContainer";
+import About from "./About";
+import Instructions from "./Instructions";
 import fetchConcepts from "../../actions/checklist/fetchConcepts";
 import { connect } from "react-redux";
 
-class Checklist extends Component {
+class Conceptualizer extends Component {
   componentDidUpdate() {
     this.props.fetchConcepts;
   }
@@ -21,7 +21,7 @@ class Checklist extends Component {
     return (
       <div className="mx-5" id="checklist-root"> {/* Spacer class */}
         <br/>
-        <h1 className="text-center">🙏 The Inaccurate Conception 🙏</h1>
+        <h1 className="text-center">The Great Conceptualizer</h1>
         <br/>
         <Tabs fill variant="pills" defaultActiveKey="A" className="mx-auto bg-secondary" id="checklist-tabs">
           <Tab eventKey="A" title="Adjectives and Nouns">
@@ -36,12 +36,12 @@ class Checklist extends Component {
           </Tab>
           <Tab eventKey="about" title="About">
             <Card>
-                <Stateless04 />
+                <About />
             </Card>
           </Tab>
           <Tab eventKey="howto" title="How to Use">
             <Card>
-              <Stateless01 />
+              <Instructions />
             </Card>
           </Tab>
         </Tabs>
@@ -62,4 +62,4 @@ const mapDispatch = dispatch => {
 export default connect(
   null,
   mapDispatch
-)(Checklist);
+)(Conceptualizer);

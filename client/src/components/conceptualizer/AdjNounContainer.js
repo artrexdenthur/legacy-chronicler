@@ -3,8 +3,8 @@ import { connect } from 'react-redux'
 import { Row, Col, Card, Button } from "react-bootstrap";
 import { Route } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
-import Concepts from './Stateless05';
-import EntryForm from './Stateless02';
+import Concepts from './Concepts';
+import EntryForm from './EntryForm';
 import submitNewConcept from '../../actions/checklist/submitNewConcept'
 
 class ContainerA extends Component {
