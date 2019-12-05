@@ -38,14 +38,14 @@ export default class MainNav extends Component {
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
-        <Nav id="nav-user" className="justify-content-end">
+        {/* <Nav id="nav-user" className="justify-content-end">
           <LinkContainer to="/sign_in">
             <Nav.Link>Sign In</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/sign_up">
           <Nav.Link>Sign Up</Nav.Link>
           </LinkContainer>
-        </Nav>
+        </Nav> */}
       </Navbar>
     );
   }
